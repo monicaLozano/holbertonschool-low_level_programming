@@ -1,16 +1,16 @@
 #include <stdio.h>
 /**
- * main: imprimir en C with printf
+ * main - imprimir en C with printf
  *
  * Return: Always 0 (Success)
- */
+*/
 int main(void)
 {
 int i;
 char c;
 long int l;
 long long int ll;
-float f;  
+float f;
 printf("Size of a char: %d byte(s)\n", sizeof(c));
 printf("Size of an int: %d byte(s)\n", sizeof(i));
 printf("Size of a long int: %d byte(s)\n", sizeof(l));
