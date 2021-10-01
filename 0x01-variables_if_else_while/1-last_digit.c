@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * main - positive negative zero
-*
+* last_digit: is a last digit of the operation
 * Return: always zero
 */
 int main(void)
