@@ -1,32 +1,25 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
-/**
- * main - positive, negative or zero
- *
- *
- * Return: always zero.
- */
+/* more headers goes there */
 
+/* betty style doc for function main goes there */
 int main(void)
 {
-	int a;
-
-	int b;
+	int n;
+	int m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	m = n % 10;
 
-	b = a % 10;
-
-	printf("Last digit of %d ", a);
-	printf("is %d ", b);
-	if (b == 0)
+	printf("Last digit of %d ", n);
+	printf("is %d ", m);
+	if (m == 0)
 	printf("and is 0\n");
-	else if (b < 6)
+	else if (m < 6)
 	printf("and is less than 6 and not 0\n");
-	else if (b > 5)
+	else if (m > 5)
 	printf("and is greater than 5\n");
-
 	return (0);
 }
