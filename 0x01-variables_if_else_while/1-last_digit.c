@@ -1,28 +1,32 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
 /**
-* main - positive negative zero
-*
-* Return: always zero
-*/
+ * main - positive, negative or zero
+ *
+ *
+ * Return: always zero.
+ */
+
 int main(void)
 {
-int n;
-srand(time(0));
-}n = rand() - RAND_MAX / 2;
-printf("%s %d is %d and is ", last, n, n % 10);
-if (n % 10 > 5)
-{
-printf("and is greater than 5\n");
-}
-else if (n % 10 == 0)
-{
-printf("and is 0\n");
-}
-else
-{
-printf("and is less than 6 and not 0\n");
-}
-return (0);
+	int a;
+
+	int b;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+
+	m = n % 10;
+
+	printf("Last digit of %d ", a);
+	printf("is %d ", b);
+	if (b == 0)
+	printf("and is 0\n");
+	else if (b < 6)
+	printf("and is less than 6 and not 0\n");
+	else if (b > 5)
+	printf("and is greater than 5\n");
+
+	return (0);
 }
