@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * main -  random number to the variable n each time it is executed.
-*
+* last_digit.c: In function ‘main’
 * Return: always zero
 */
 int main(void)
