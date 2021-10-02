@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - determina si es numero
- * 
+ *
 (*
 * Return: 0
 */
