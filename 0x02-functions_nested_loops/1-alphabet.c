@@ -4,7 +4,7 @@
 #include <stdio.h>
 /**
 * main - print alphabet lowecase
-* print_alphabet: print alphabet
+* _print_alphabet: print alphabet
 * Return: always zero
 */
 void print_alphabet(void)
