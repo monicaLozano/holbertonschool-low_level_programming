@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - print alphabet lowecase
-* islower - checks for lowercase character.
+*
+* _islower - checks for lowercase character.
 * @c: character
-* Return: always zero
+*
 */
 int _islower(int c)
 {
