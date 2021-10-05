@@ -1,4 +1,7 @@
-#include "holberton.h"
+#include "main.h"
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
 * main - write a program that prints putchar.
 *
