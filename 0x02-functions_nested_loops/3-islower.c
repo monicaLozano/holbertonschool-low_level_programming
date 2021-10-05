@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
 * main - print alphabet lowecase
-* _islower:  checks for lowercase character.
+* _islower - checks for lowercase character.
 * @c: character
 * Return: always zero
 */
