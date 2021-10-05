@@ -3,9 +3,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - print alphabet lowecase
-* print_alphabet_x10: print alphabet
-* Return: always zero
+* 
+* print_alphabet_x10 - t prints 10 times the alphabet, in lowercase
+* 
 */
 void print_alphabet_x10(void)
 {
