@@ -3,10 +3,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - print alphabet lowecase
-* print_alphabet - print alphabet in lowercase 
-*
-*/
+ * print_alphabet - print alphabet in lowercase
+ */
 void print_alphabet(void)
 {
 char i;
