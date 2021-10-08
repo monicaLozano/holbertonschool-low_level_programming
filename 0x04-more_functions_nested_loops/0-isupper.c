@@ -5,12 +5,14 @@
  *
  * Return: Always 0.
  */
-int _isupper(int c);
+int _isupper(int c)
 {
-char c;
-c = 'C';
-printf("%c: %d\n", c, _isupper(c));
-c = '+';
-printf("%c: %d\n", c, _isupper(c));
+if (c >= 'A' && c <= 'Z')
+{
+return (1);
+}
+else
+{
 return (0);
+}
 }
