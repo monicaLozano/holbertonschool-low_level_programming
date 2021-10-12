@@ -12,7 +12,7 @@ char *_strcpy(char *dest, char *src)
 {
 	int temp;
 
-	char *aux = dest;
+	/**char *aux = dest;*/
 
 	for (temp = 0; *src + temp <= '\0'; temp++)
 	{
@@ -23,5 +23,5 @@ char *_strcpy(char *dest, char *src)
 			break;
 		}
 	}
-	return (aux);
+	return (dest);
 }
