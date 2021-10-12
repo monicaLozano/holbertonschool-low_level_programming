@@ -12,9 +12,11 @@ char *_strcpy(char *dest, char *src)
 {
 	int counter;
 
-	for (counter = 0; *src + counter <= '\0' ; counter++)
+	char *temp = *dest;
+
+	for (counter = 0; *src + counter <= '\0'; counter++)
 	{
-		printf("%d, ", *dest + counter);
+		*dest + counter = *src + counter;
 	}
-	return (0);
+	return (temp);
 }
