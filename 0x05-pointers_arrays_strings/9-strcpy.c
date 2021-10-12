@@ -10,10 +10,9 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	while (*src)
+	for (int recorrer = 0; *src + recorrer <= '\0' ; recorrer++)
 	{
-		*dest++ = *src++;
+		printf("%d, ", *dest + recorrer);
 	}
-	char *aux = dest;
-	return (aux);
+	return (0);
 }
