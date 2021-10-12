@@ -10,21 +10,17 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int control = 0;
-
 	int temp;
 
 	char *aux = dest;
 
 	for (temp = 0; *src + temp <= '\0'; temp++)
 	{
-		if (*src + temp > '\0')
+		*dest++ = *src++;
+
+		if (*src + temp == '\0')
 		{
-			control = 1;
-		}
-		if (control == 0)
-		{
-			*dest++ = *src++;
+			break;
 		}
 	}
 	return (aux);
